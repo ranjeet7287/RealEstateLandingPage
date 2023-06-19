@@ -290,6 +290,21 @@ body{
     color: #ffffff;
     border-radius: 20px;
 }
+.ShowCase-2{
+    display: flex;
+    padding:0rem 0rem 3rem 4rem;
+    background-color:#e5e5e5;;
+}
+.ShowCase-img-2{
+    position: absolute;
+    width: 33rem;
+    height: 28rem;
+    right: 10%;
+    border-radius: 30px;
+}
+.ShowCase-cont-2{
+    margin-top: 7rem;
+}
 @media screen and (max-width:1000px){
     .show-back-img{
         display: none;
@@ -301,6 +316,11 @@ body{
         padding-left: 3rem;
         text-align: center;
     }
-
-    
+    .ShowCase-img-2{
+        display: none;
+    } 
+    .ShowCase-cont-2{
+        padding-right: 3rem;
+        text-align: center;
+    }
 }
