@@ -324,3 +324,66 @@ body{
         text-align: center;
     }
 }
+
+
+.footter-section{
+    padding: 4rem 3rem;
+    background-color:#e5e5e5;
+}
+.Subscribe-box{
+    background-color: #6e67f3;
+    text-align: center;
+    padding: 3rem;
+    color: #ffffff;
+    border-radius: 30px;
+}
+#sub-head{
+    font-size: 3rem;
+    font-weight: 800;
+}
+#sub-para{
+    margin: 2rem;
+    font-size: large;
+    color: #e5e5e5;
+}
+.sub-input{
+    display: flex;
+    justify-content: center;
+}
+#sub-email-box{
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+    background-color:#5d55ec;
+    border-radius: 20px;
+    display: flex;
+}
+#email-input{
+    background-color:#5d55ec;
+    border: none;
+    color: #e5e5e5;
+    margin-left: 1rem;   
+}
+#sub-btn{
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    border-radius: 20px;
+    border: none;
+    color: #5a53e3;
+    font-size: large;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media screen and (max-width:550px){
+    .sub-input{
+        display: flex;
+        flex-direction: column;
+    }
+    #sub-btn{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:400px){
+    #sub-head{
+        font-size: 2rem;
+    }
+}
